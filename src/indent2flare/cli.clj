@@ -7,16 +7,6 @@
   (:import (java.io File))
   (:gen-class))
 
-  ; TODO:
-  ; All I've done so far is copy the csv stuff - this isn't really started!
-  ;  - this needs to actually iterate through the flare file looking for files to scan for indents
-  ;  - so a lot of the csv stuff isn't useful!
-  ; simplest thing that could work:
-  ; - you should pass a flare file as input
-  ; - you should run from a directory containing the root of the flare file
-  ; - then it's probably simple to just recurse through updating the flare stuff
-  ; Hmm - we might also want to insert part-way through the flare?  In a future version.
-
   (def cli-options
     [["-i" "--input filename" "select an input flare-format json file for merging - if you don't specify a -b option, the program will try to read flare data from standard input for piping"]
      ["-o" "--output filename" "select an output file name (default is STDOUT)"]

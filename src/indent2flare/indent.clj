@@ -1,6 +1,5 @@
 (ns indent2flare.indent
-  (:require [indent2flare.flare :as flare]
-            [clojure.java.io :as io]
+  (:require [clojure.java.io :as io]
             [clojure.walk :refer [keywordize-keys]]
             [cheshire.core :as cheshire]
             [clojure.set :as set]
