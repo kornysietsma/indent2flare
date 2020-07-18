@@ -1,3 +1,5 @@
+**ARCHIVED** this is part of my older code tools - see https://kornysietsma.github.io/polyglot-tools-docs/ for latest stuff.
+
 # indent2flare
 
 A Clojure library designed to calculate indentation data for source code,
